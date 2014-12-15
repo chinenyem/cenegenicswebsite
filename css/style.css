@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+h2 {
+   font-family: 'Muli', sans-serif;
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+	
+}
+
+h3 {
+   font-family: 'Muli', sans-serif;
+   font-size: 43px;
+   text-align: center;
+   margin: 5px 0;
+   padding: 0;	
+}
+
+h4{
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 19px;
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 980px; margin-left: 20%; }
+.clear { clear: both; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family: 'Muli', sans-serif; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family: 'Muli', sans-serif; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 30px;
+	-webkit-box-shadow: 0 2px 17px 4px #c8c8c8;
+	-moz-box-shadow: 0 2px 17px 4px #c8c8c8;
+	 box-shadow: 0 2px 17px 4px #c8c8c8;
+	 border-bottom: 3px solid white;
+	 border-top: 3px solid white;
+}
+
+
+#nav { width: 611px; float: right; margin-top: 20px; margin-right: -13%;
+
+
+ }
+.slideshow { margin-top: -9%; border: solid; border-radius: 10px; padding: 9px; background-color: rgb(77, 37, 103);}
+.logoimage {width: 65px; margin-left: -145%; margin-top: -10%}
+.logoimagetwo{width: 224px; float: left; margin-left: -90px; margin-top: -6%;}
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family: 'Muli', sans-serif; font-weight: bold; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Muli', sans-serif; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+.quotes {   
+ font-family: 'Muli', sans-serif;
+   font-weight: normal;
+   font-size: 43px;
+   text-align: left;
+   margin: 50px auto;
+   padding-bottom: 17px;
+   border-bottom: 3px solid white;
+}
+/* Jquery css display none
+-----------------------------------------------------------*/
+.hidden{display:none;}
+.xmark{margin-left: 2%;}
+
+#name.form-control:focus, #msg.form-control:focus, #email.form-control:focus, #phone.form-control:focus {
+border-color: #631a93;
+outline: 0;
+-webkit-box-shadow: 5px 0px 31px rgba(99, 26, 147, 1);
+box-shadow: 5px 0px 31px rgba(99, 26, 147, 1);
+}
+
+#submit.btn-primary {
+color: white;
+background-color: #631a93;
+border-color: #631a93;
+font-family: 'Muli', sans-serif;
+border-radius: 1px;
+}
+
+#submit.btn-primary:focus{
+border-color: #631a93;
+outline: 0;
+-webkit-box-shadow: 5px 0px 31px rgba(99, 26, 147, 1);
+box-shadow: 5px 0px 31px rgba(99, 26, 147, 1);
+}
+
+.formstyle{box-shadow: 5px 0px 31px rgba(99, 26, 147, 1)}
+
+.doctorparagarph{ font-size: 16px; font-family: 'Muli', sans-serif;}
+.doctor{ font-size: 43px; text-align: left; margin-top: -21%; margin-bottom: 17px; font-family: 'Muli', sans-serif;
+}
+ .realstories{ border: solid 5px #4d2567; border-radius: 10px; height: 420px;}  
+ #contact_form{margin-left: -27%; width: 181%;}
+
+ .contentrealstories{ margin-top: -7%;}
+ .author_name_white { font-family: 'Muli', sans-serif;  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
+ .author_name_gray { font-family: 'Muli', sans-serif;  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
+ .quotes_container { width: 880px; margin: 0 auto;  }
+ .flexslider{background: url('../img/docphoto.png' ) no-repeat; width: 107%; height: 657px; bottom: 5px; margin-left: 1%; margin-top: -11%;}
+ .cenegenics{ margin-left: 9%; margin-top: -10%;}
+ .realpic{vertical-align: middle; border-radius: 10px; border: solid 1px gray; padding: 2px; background-color: white; height: 254px;}
+ .quotation{ font-family: 'Sorts Mill Goudy', serif; margin-top: 5%; color: black; font-size: 21px; font-style: italic; }
+  span{margin-left: 48%;}
+ .realheader{font-family: 'Sorts Mill Goudy', serif; font-size: 24px; color: black; font-weight: 700; }
+
+.markpic:hover, .kathypic:hover, .bobpic:hover {cursor: pointer; border-radius: 10px; border: solid 1px gray; background-color: white; -moz-box-shadow: inset 0 0 10px #000000; -webkit-box-shadow: inset 0 0 10px #631a93; box-shadow: inset 0 0 11px #631a93; }
+.contactformstyle{
+	margin-top: -9%;
+	margin-left: -122%;
+	font-family: 'Muli', sans-serif;
+	font-size: 52px;
+
+}
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+#slide1{
+	background:url('../img/medical-office-interior.png') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 750px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #e1dede;
+	color: #333333;
+	height: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#slide3{
+	background: url(../img/charlestonsc.png) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 800px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #e1dede;
+	color: #333333;
+	height: 800px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url(../img/olderwoman.png) 50% 0 no-repeat fixed;
+	height: 755px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
